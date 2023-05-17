@@ -1,0 +1,13 @@
+[Desktop Entry]
+Type=Application
+Version=1.0
+Name=Install BlackTrack
+GenericName=Calamares Installer
+Exec=sudo install-blacktrack
+Comment=Calamares — Installer for BlackTrack Live
+Keywords=calamares;system;install;debian;installer
+Icon=install-blacktrack
+Terminal=false
+Categories=Qt;System;
+StartupWMClass=calamares
+StartupNotify=True

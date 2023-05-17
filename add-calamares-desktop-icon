@@ -1,0 +1,27 @@
+#!/bin/sh
+# Creates an "Install BlackTrack" icon on the live session tested with:
+# Xfce, LXDE, LXqt, Gnome, KDE, Mate, Cinnamon
+
+# We query xdg-user-dir because the Desktop directory has different
+# names for different languages
+DESKTOP=$(xdg-user-dir DESKTOP)
+
+# Create ~/Desktop just in case this runs before the xdg folder
+# creation script.
+mkdir -p $DESKTOP
+
+# Among the BlackTrack desktop environments, LXDE is the only one
+# that behaves completely different.
+if [ -f /usr/bin/lxsession ]; then
+    echo "[Desktop Entry]" > $DESKTOP/install-blacktrack.desktop
+    echo "Type=Link" >> $DESKTOP/install-blacktrack.desktop
+    echo "Name=Install BlackTrack" >> $DESKTOP/install-blacktrack.desktop
+    echo "Icon=install-blacktrack" >> $DESKTOP/install-blacktrack.desktop
+    echo "URL=/usr/share/applications/install-blacktrack.desktop" \
+          >> $DESKTOP/install-blacktrack.desktop
+else
+    cp /usr/share/applications/install-blacktrack.desktop $DESKTOP
+    # Xfce needs this executable otherwise it complains, everything
+    # else doesn't seem to care either way.
+    chmod +x $DESKTOP/install-blacktrack.desktop
+fi

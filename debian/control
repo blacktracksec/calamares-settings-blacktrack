@@ -1,0 +1,25 @@
+Source: calamares-settings-blacktrack
+Section: utils
+Priority: optional
+Maintainer: joe <ctf.beginer.joe@gmail.com>
+Rules-Requires-Root: no
+Build-Depends:
+ debhelper-compat (= 13), libglib2.0-bin
+Standards-Version: 4.6.2
+Homepage: <insert the upstream URL, if relevant>
+#Vcs-Browser: https://salsa.debian.org/debian/calamares-settings-blacktrack
+#Vcs-Git: https://salsa.debian.org/debian/calamares-settings-blacktrack.git
+
+Package: calamares-settings-blacktrack
+Architecture: any
+Depends: calamares,
+         cryptsetup,
+         keyutils,
+         qml-module-qtquick-window2,
+         qml-module-qtquick2,
+         ${misc:Depends}
+Description: BlackTrack theme and settings for the Calamares Installer(modified from calamares-settings-debian)
+ Calamares is a generic installer framework for Linux distributions.
+ By default, it contains a set of boilerplate wording and images. This
+ package provides the latest Debian artwork as well as scripts that
+ supports EFI installations.
