@@ -1,0 +1,37 @@
+---
+componentName:   debian
+welcomeStyleCalamares: true
+welcomeExpandingLogo: true
+windowExpanding: normal
+windowSize: 800px,520px
+windowPlacement: center
+
+strings:
+    productName:         BlackTrack GNU/Linux
+    shortProductName:    BlackTrack
+    version:             2023a (netstation)
+    shortVersion:        2023a
+    versionedName:       BlackTrack 2023a (netstation)
+    shortVersionedName:  BlackTrack 2023a
+    bootloaderEntryName: BlackTrack
+    productUrl:          https://blacktrack-debian.github.io
+    supportUrl:          https://blacktrack-debian.github.io/support
+    knownIssuesUrl:      https://blacktrack-debian.github.io
+    releaseNotesUrl:     https://blacktrack-debian.github.io/releases/netstation/
+    donateUrl:           https://blacktrack-debian.github.io/
+
+images:
+    productLogo:         "blacktrack-logo.png"
+    productIcon:         "blacktrack-logo.png"
+    productWelcome:      "welcome.png"
+    # productWallpaper:  "wallpaper.png"
+
+slideshow:               "show.qml"
+
+style:
+   sidebarBackground:    "#2c3133"
+   sidebarText:          "#FFFFFF"
+   sidebarTextSelect:    "#4d7079"
+   sidebarTextSelect:    "#292F34"
+
+slideshowAPI: 2
