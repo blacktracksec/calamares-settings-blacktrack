@@ -1,0 +1,16 @@
+cadc792eaa235ceef1a477c38fa85fed  usr/bin/add-calamares-desktop-icon
+57cd0edd59dbf306d3065fa844e7cd73  usr/bin/install-blacktrack
+726a342ac36e842411da0f43fb02fa4d  usr/lib/calamares/modules/bootloader-config/module.desc
+4b91d31fff61107459e6ea7f22c119aa  usr/lib/calamares/modules/sources-final/module.desc
+d178b9bb370c010484b87a6ac7951a59  usr/lib/calamares/modules/sources-media-unmount/module.desc
+d4663e21d64a21aa758b12fa6d66f8b8  usr/lib/calamares/modules/sources-media/module.desc
+64ea01e3561ade4eb6f56d5a6351f921  usr/sbin/bootloader-config
+9c04a27ea7753d935b07a2f3815e30dc  usr/sbin/sources-final
+4af9e9ac83454f3dfe9a28f2ba9e0060  usr/sbin/sources-media
+84a671f7209b58bf42e4e0e9c1ddf4b4  usr/share/applications/install-blacktrack.desktop
+e39fda52c2e7eacd6d1dafb21040cdf9  usr/share/doc/calamares-settings-blacktrack/changelog.Debian.gz
+5845281fdb4a14c600dc85f96b0d0e98  usr/share/doc/calamares-settings-blacktrack/changelog.gz
+21e0af09aa95f52ddca11f55366acee3  usr/share/doc/calamares-settings-blacktrack/copyright
+69e001317151710dde220c016cd5cb10  usr/share/glib-2.0/schemas/96_calamares-settings-debian.gschema.override
+0198e0f91ed690a0dc9bdced361650ed  usr/share/lintian/overrides/calamares-settings-blacktrack
+3b1ff056be16f23f78d26379f655915e  usr/share/pixmaps/install-blacktrack.png
